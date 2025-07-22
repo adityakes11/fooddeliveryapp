@@ -1,16 +1,47 @@
-# test
+# 🍽️ Flutter Food Delivery App
 
-A new Flutter project.
+A full-featured **food delivery app** built using **Flutter and Firebase**, with support for:
 
-## Getting Started
+- 📱 Mobile UI (User App)
+- 🖥️ Admin Web Panel (Flutter Web or separate React/Vue project)
+- 🔐 Firebase Auth (email, phone, Google)
+- ☁️ Firestore & Cloud Storage
+- 📦 Realtime Order Updates and Notifications
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### User App (Flutter)
+- 👤 User Registration & Login (Email, Phone, Google)
+- 🗺️ Browse restaurants and menu items
+- 🛒 Cart functionality with checkout flow
+- 📍 Address management with Google Maps
+- 🔔 Realtime order status updates with notifications
+- 📂 View order history, edit profile
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Admin Panel (Web or Flutter Web)
+- 🔐 Admin login
+- 📊 Dashboard with orders and revenue
+- 🍽️ CRUD for restaurants & menu items
+- 👥 Manage users and delivery agents
+- 🚚 Update order delivery status
+- 💬 Send push notifications (via Firebase)
+
+---
+
+## 🧰 Tech Stack
+
+| Component        | Technology                        |
+|------------------|-----------------------------------|
+| UI Framework     | Flutter (Dart)                    |
+| State Management | Provider / Riverpod / Bloc        |
+| Backend          | Firebase (Auth, Firestore, Storage, Functions, Messaging) |
+| Maps             | Google Maps API                   |
+| Notifications    | Firebase Cloud Messaging (FCM)    |
+| Admin Panel      | Flutter Web or React.js           |
+
+---
+
+## 📦 Folder Structure
+
