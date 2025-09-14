@@ -43,5 +43,4 @@ A full-featured **food delivery app** built using **Flutter and Firebase**, with
 
 ---
 
-## 📦 Folder Structure
 
